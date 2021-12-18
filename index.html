@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Order Summary Component</title>
 </head>
 <body>
-    <div class="wave-background"></div>
-    <article>
+    <article class="border-radius">
         <img src="./images/illustration-hero.svg" alt="girl listening to music">
         <div class="container">
-            <h2>Order Sumary</h2>
-            <p>
+            <h2 class="font-bold">Order Sumary</h2>
+            <p class="secondary-font-color font-medium">
                 You can now liston to millions of songs, auidiobooks, and podcasts on any device anywhere you like!           
             </p>
-            <div class="plan-container">
-                <img src="./images/icon-music.svg" alt="music icon">
-                <span>Annual Plan<span>$59.99/year</span></span>
-                <a href="#">Change</a>
+            <div class="annual-plan-container border-radius margin-bottom">
+                <img src="./images/icon-music.svg" alt="music icon" class="music-icon">
+                <div>
+                    <span class="font-medium">Annual Plan</span><br>
+                    <span class="secondary-font-color font-medium">$59.99/year</span>
+                </div>
+                <a href="#" class="change-btn font-medium text-decoration-underline">Change</a>
             </div>
-            <a href="#">Proceed to Payment</a>
-            <a href="#">Cancel Order</a>
+            <a href="#" class="payment-btn font-bold margin-bottom">Proceed to Payment</a>
+            <a href="#" class="cancel-btn secondary-font-color font-bold">Cancel Order</a>
         </div>
     </article>
 
-    <footer>Created by <a href="https://github.com/NicolasBQ">NicolasBQ</a> - <a href="https://www.frontendmentor.io/home">frontendmentor.io</a></footer>
+    <footer class="secondary-font-color font-medium">Created by <a href="https://github.com/NicolasBQ" class="secondary-font-color font-medium text-decoration-underline" target="_blank">NicolasBQ</a> - <a href="https://www.frontendmentor.io/home" class="secondary-font-color font-medium" target="_blank">frontendmentor.io</a></footer>   
 </body>
 </html>
